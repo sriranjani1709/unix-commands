@@ -1,0 +1,24 @@
+
+//1.Create 2 folders
+[root@localhost ~]# mkdir folder1
+
+//2.Create a txt file in folder1
+[root@localhost ~]# touch file1
+[root@localhost ~]# mkdir folder2
+
+//3.Write something in that file using vi editor
+[root@localhost ~]# vi file1
+Hello File1 
+
+//4.Move the file to folder2
+[root@localhost ~]# mv file1 folder2
+
+//5.List all files folder2
+[root@localhost ~]# ls folder2
+file1
+
+//6.Delete the folder
+[root@localhost ~]# rmdir folder1
+[root@localhost ~]# ls
+bench.py       hello.c        readme.txt
+folder2        hello.js       rv128test.bin
